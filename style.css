@@ -18,3 +18,43 @@ header {
     top: 0;
     z-index: 100;
 }
+
+
+
+
+
+}
+
+.logo span {
+    color: #e50914; /* Vermelho estilo Netflix */
+}
+
+#searchinput {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/*Hero Section*/
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(o,o,o,o,.7)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+}
+
+/* Grid de filmes */ 
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, qfr));
+    gap: 20px;
+    padding: 40px 5%;
+}
+
+
+.movie-card {
+    background-color: #000;
+    border-radius: 8px;
+    
+}
